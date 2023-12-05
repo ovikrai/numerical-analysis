@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Numerical"
+version = "0.0.7"
+authors = [
+  { name="Carlos Oviedo", email="ovicorps@gmail.com" },
+]
+description = "Utility libraries used accross all products"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Propietary :: EULA",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/ovicorps-company/modules-and-scripts"
+"Bug Tracker" = "https://gitlab.com/ovicorps-company/modules-and-scripts/-/issues"
+
